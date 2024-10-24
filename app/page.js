@@ -1,13 +1,10 @@
+import HomeContainer from '@/containers/home'
+import React from 'react'
 
-export default function Home() {
+function HomePage() {
   return (
-    <div className="">
-      <main className="">
-      <p>test</p>
-      </main>
-      <footer className="">
-     
-      </footer>
-    </div>
-  );
+    <div><HomeContainer/></div>
+  )
 }
+
+export default HomePage
