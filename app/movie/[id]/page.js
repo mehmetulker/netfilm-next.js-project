@@ -7,7 +7,7 @@ function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function MoviePage({ params, searchParams }) {
-  await delay(10000)
+  await delay(2000)
     
   console.log(params.id)
   const movieDetail = Movies.results.find((movie) => movie.id.toString() === params.id)
