@@ -1,18 +1,21 @@
 import React from 'react'
+import FeatureMovieLoading from "@/components/featured-movie/loading"
 import CategoriesLoading from '@/components/catagories/loading'
-import FeatureMovieLoading from '@/components/featured-movie/loading'
 import MoviesSectionLoading from '@/components/movies-seciton/loading'
- function Loading() {
-    
+
+
+
+ function loading() {
+  
   return (
-    <div>
-      <FeatureMovieLoading/>      
-      <CategoriesLoading />
-      <MoviesSectionLoading />
-      <MoviesSectionLoading />
-      <MoviesSectionLoading/>
-    </div>
+      <div>  
+          <FeatureMovieLoading />  
+          <CategoriesLoading />
+          <MoviesSectionLoading />
+          <MoviesSectionLoading />
+          <MoviesSectionLoading />
+      </div>
   )
 }
 
-export default Loading
+export default loading
